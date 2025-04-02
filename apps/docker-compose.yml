@@ -1,0 +1,36 @@
+services:
+  shell:
+    build:
+      context: ./shell
+    ports:
+      - '3000:3000'
+
+  mfe_home:
+    build:
+      context: ./mfe-home
+    ports:
+      - '3001:3001'
+
+  mfe_projects:
+    build:
+      context: ./mfe-projects
+    ports:
+      - '3002:3002'
+
+  mfe_blogs:
+    build:
+      context: ./mfe-blogs
+    ports:
+      - '3003:3003'
+
+  mfe_about:
+    build:
+      context: ./mfe-about
+    ports:
+      - '3004:3004'
+
+  mfe_contact:
+    build:
+      context: ./mfe-contact
+    ports:
+      - '3005:3005'
