@@ -17,6 +17,8 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
+						"aot": true,
+						"buildOptimizer": true,
 						"outputPath": "dist/mfe-blogs",
 						"index": "src/index.html",
 						"polyfills": [
